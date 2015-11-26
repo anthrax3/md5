@@ -1,0 +1,45 @@
+{
+  "name": "md5",
+  "description": "md5 test with node",
+  "version": "0.1.0",
+  "keywords": [
+    "php",
+    "composer",
+    "testing"
+  ],
+  "homepage": "https://github.com/rbarros/md5",
+  "author": {
+    "name": "Ramon Barros",
+    "email": "rbarros_@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbarros/md5"
+  },
+  "bugs": {
+    "url": "https://github.com/rbarros/md5/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rbarros/md5/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/md5",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.4"
+  }
+}
